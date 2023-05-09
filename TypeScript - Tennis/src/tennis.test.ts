@@ -1,8 +1,7 @@
 import {describe, expect, test} from '@jest/globals';
 import {score} from './tennis';
 
-describe('sum module', () => {
-
+describe('Tennis scoring Kata', () => {
  
   test.each([
     [4, 0, 'player 1 wins'],
