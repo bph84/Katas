@@ -3,33 +3,7 @@ import {score} from './tennis';
 
 describe('sum module', () => {
 
-  test('first player wins', () => {
-    expect(score(4, 0)).toBe("player 1 wins");
-  })
-
-  test('second player wins', () => {
-    expect(score(0, 4)).toBe("player 2 wins");
-  })
-
-
-  test('first player wins', () => {
-    expect(score(10, 8)).toBe("player 1 wins");
-  })
-
-  test('first player wins', () => {
-    expect(score(5, 3)).toBe("player 1 wins");
-  })
-
-  test('second player wins', () => {
-    expect(score(3, 5)).toBe("player 2 wins");
-  })
-
-  test('second player wins', () => {
-    expect(score(4, 0)).toBe("player 1 wins");
-  })
-
-
-  
+ 
   test.each([
     [4, 0, 'player 1 wins'],
     [0, 4, 'player 2 wins'],
